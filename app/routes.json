@@ -1,0 +1,14 @@
+[
+  {
+    "method": "get",
+    "pat": "/",
+    "controller": "home",
+    "action": "index"
+  },
+  {
+    "method": "get",
+    "pat": "/<name>",
+    "controller": "home",
+    "action": "show"
+  }
+]
